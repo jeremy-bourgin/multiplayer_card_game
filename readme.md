@@ -16,7 +16,7 @@ Pour exécuter :
 
 -------------------------------------------------------------
 
-<p>Vous allez jouer à un jeu de carte.</p>
+<p>Vous allez jouer à un jeu de carte multijoueur (vous devez être au minimum 3 joueurs connecté pour pouvoir jouer).</p>
 <p>Lorsque vous êtes dans la parties (donc ni en attente de fin de tour, ni en attente de joueur), vous pourrez piocher à n'importe quel moment.</p>
 <p>Vous pouvez avoir jusqu'à 10 cartes</p>
 <p>Le tour est terminé lorsque tous les joueurs ont joué, alors, vous découvrirez le nombre de points que vous et les autres joueurs avez gagné</p>
