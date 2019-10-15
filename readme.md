@@ -1,7 +1,7 @@
 -------------------------------------------------------------
 
-Le but de ce projet était de découvrir les aspects de la programmation multithreadé avec des ressources partagées en utilisant le langage C.
-Pour cela, nous avons voulu faire un prototype de jeu de cartes multijoueur. Le principe du jeu est le suivant :
+<p>Le but de ce projet était de découvrir les aspects de la programmation multithreadé avec des ressources partagées en utilisant le langage C.</p>
+<p>Pour cela, nous avons voulu faire un prototype de jeu de cartes multijoueur. Le principe du jeu est le suivant :</p>
 - un minimum de 1 carte en main, et un maximum de 10
 - on peut piocher une carte lorsqu'on le souhaite (les autres joueurs sont alors avertis)
 - pour jouer, il suffit de poser une carte que l'on a en main
@@ -17,22 +17,22 @@ Les ressources partagées sont les suivantes :
 
 -------------------------------------------------------------
 
-Les différentes commandes comme piocher une carte, poser une carte, ..., vous serons indiquer dans le terminal
+<p>Les différentes commandes comme piocher une carte, poser une carte, ..., vous serons indiquer dans le terminal</p>
 
 -------------------------------------------------------------
 
-Pour compiler :
-	- client  :
-		make client
-	- serveur :
-		make server
+<p>Pour compiler :</p>
+- client  : make client
+- serveur : make server
 
-Pour exécuter :
-	- client  (si le serveur est sur votre machine) :
-		cd bin
-		./client
-	- client (si le serveur n'est pas sur votre machine) :
-		./client adresse_ip_serveur
-	- serveur :
-		cd bin
-		./server
+-------------------------------------------------------------
+
+<p>Pour exécuter le client :</p>
+- cd bin
+- ./client ou ./client adresse_ip_serveur
+
+-------------------------------------------------------------
+
+<p>Pour exécuter le serveur :</p>
+cd bin
+./server
