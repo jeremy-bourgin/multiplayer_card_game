@@ -34,5 +34,5 @@ Les ressources partagées sont les suivantes :
 -------------------------------------------------------------
 
 <p>Pour exécuter le serveur :</p>
-cd bin
-./server
+- cd bin
+- ./server
