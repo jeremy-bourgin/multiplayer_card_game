@@ -1,6 +1,6 @@
 -------------------------------------------------------------
 
-<p>Le but de ce projet était de découvrir les aspects de la programmation multithreadé avec des ressources partagées en utilisant le langage C.</p>
+Le but de ce projet était de découvrir les aspects de la programmation multithreadé avec des ressources partagées en utilisant le langage C.<br/>
 Pour cela, nous avons voulu faire un prototype de jeu de cartes multijoueur. Le principe du jeu est le suivant :
 - un minimum de 1 carte en main, et un maximum de 10
 - on peut piocher une carte lorsqu'on le souhaite (les autres joueurs sont alors avertis)
