@@ -1,3 +1,26 @@
+-------------------------------------------------------------
+
+Le but de ce projet était de découvrir les aspects de la programmation multithreadé avec des ressources partagées en utilisant le langage C.
+Pour cela, nous avons voulu faire un prototype de jeu de cartes multijoueur. Le principe du jeu est le suivant :
+- un minimum de 1 carte en main, et un maximum de 10
+- on peut piocher une carte lorsqu'on le souhaite (les autres joueurs sont alors avertis)
+- pour jouer, il suffit de poser une carte que l'on a en main
+- le tour est terminé lorsque tous les joueurs ont posé une carte
+- chaque joueur gagne des points correspondant à la valeur de la carte qu'ils ont jouée
+- un minimum de 3 joueurs connectés pour jouer
+- on peut quitter à tout moment
+
+Les ressources partagées sont les suivantes :
+- la pile de cartes où les joueurs peuvent piocher à n'importe quel moment
+- la table de jeu où les joueurs posent une carte à chaque tour
+- les points cumulés par chacun des joueurs
+
+-------------------------------------------------------------
+
+Les différentes commandes comme piocher une carte, poser une carte, ..., vous serons indiquer dans le terminal
+
+-------------------------------------------------------------
+
 Pour compiler :
 	- client  :
 		make client
@@ -13,13 +36,3 @@ Pour exécuter :
 	- serveur :
 		cd bin
 		./server
-
--------------------------------------------------------------
-
-<p>Vous allez jouer à un jeu de carte multijoueur (vous devez être au minimum 3 joueurs connecté pour pouvoir jouer).</p>
-<p>Lorsque vous êtes dans la parties (donc ni en attente de fin de tour, ni en attente de joueur), vous pourrez piocher à n'importe quel moment.</p>
-<p>Vous pouvez avoir jusqu'à 10 cartes</p>
-<p>Le tour est terminé lorsque tous les joueurs ont joué, alors, vous découvrirez le nombre de points que vous et les autres joueurs avez gagné</p>
-<p>La valeur d'une carte est le nombre de points qu'elle va vous faire gagner.</p>
-<p>Cependant, faites attention avant de piocher une carte, car le calcul se fait de la façon suivante : (valeur_carte - nb_de_carte_en_main)</p>
-<p>Les différentes commandes comme piocher une carte, poser une carte, ..., vous serons indiquer dans le terminal</p>
